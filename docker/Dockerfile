@@ -6,3 +6,5 @@ RUN apt-get install --yes software-properties-common
 RUN add-apt-repository ppa:pgavin/ghdl
 RUN apt-get update
 RUN apt-get install --yes ghdl
+
+RUN ghdl --version | grep -q 0.31
