@@ -12,5 +12,3 @@ RUN apt-get update \
  && ./configure --prefix=/usr/local \
  && make \
  && make install
-
-RUN ghdl --version | grep -q 0.36

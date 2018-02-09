@@ -1,3 +1,5 @@
-# vhdl 0.36
+# VHDL
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/vhdl-0.36.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/vhdl.svg?branch=master)
+
+Version=0.36
