@@ -2,4 +2,4 @@ FROM  cyberdojofoundation/ubuntu-build-essential-18-04:a6578e6
 LABEL maintainer=pablo.mansanet@bluefruit.co.uk
 
 COPY install.sh .
-RUN ./install.sh
+RUN ./install.sh && rm ./install.sh
