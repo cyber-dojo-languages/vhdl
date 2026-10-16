@@ -1,5 +1,8 @@
-FROM ghcr.io/cyber-dojo-languages/ubuntu-build-essential-24-04:594a71f
+FROM ghcr.io/cyber-dojo-languages/ubuntu-build-essential-26-04:56c28d7
 LABEL maintainer=pablo.mansanet@bluefruit.co.uk
 
 RUN apt update 
 RUN apt install --yes ghdl
+
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
